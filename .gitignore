@@ -1,0 +1,8 @@
+#########
+# Kicad #
+#########
+
+Hardware/*.bak
+Hardware/*.bck
+Hardware/*.pdf
+
