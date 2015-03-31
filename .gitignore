@@ -6,3 +6,7 @@ Hardware/*.bak
 Hardware/*.bck
 Hardware/*.pdf
 
+###############
+# Build Files #
+###############
+Software/build
