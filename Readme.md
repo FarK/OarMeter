@@ -34,3 +34,20 @@ Enlaces
 * **Blog**: [http://oarmeter.blogspot.com.es](http://oarmeter.blogspot.com.es)
 * **CUSL**: Este proyecto participa en el Concurso Universitario de Software Libre. En este enlace podéis encontrar más información: [http://www.concursosoftwarelibre.org/1415/?q=proyectos/67](http://www.concursosoftwarelibre.org/1415/?q=proyectos/67)
 
+
+Submódulos
+==========
+Este repositorio utiliza submódulos git para desargar algunas bibliotecas
+necesarias. Para garantizar que estos submódulos se descargan se puede proceder
+de una de las siguientes formas:
+
+1. Clonar el repositorio con el comando:
+	```
+	$> git clone --recursive git@github.com:FarK/OarMeter.git
+	```
+
+1. Ejecutar (en la raíz del repositorio) los siguientes comandos:
+	```
+	$> git submodule init
+	$> git submodule update
+	```

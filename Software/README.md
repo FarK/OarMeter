@@ -39,3 +39,20 @@ Para compilar seguir los siguientes pasos:
 	```
 	$> make upload
 	```
+
+Submódulos
+==========
+Se han incorporado las bibliotecas para el LCD y la IMU directamente de sus
+repositorios, mediante los submódulos de git. Por ello, para obtener el código
+de estos repositorios hay estas dos opciones:
+
+1. Clonar el repositorio con el comando:
+	```
+	$> git clone --recursive git@github.com:FarK/OarMeter.git
+	```
+
+1. Ejecutar (en la raíz del repositorio) los siguientes comandos:
+	```
+	$> git submodule init
+	$> git submodule update
+	```
