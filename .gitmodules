@@ -1,3 +1,6 @@
 [submodule "Software/libs/LCD"]
 	path = Software/libs/LCD
 	url = git@github.com:FarK/LCD-5110-PCD8544_RTOS.git
+[submodule "Software/libs/MPU6050"]
+	path = Software/libs/MPU6050
+	url = https://github.com/FarK/MPU6050-Generic-RTOS
