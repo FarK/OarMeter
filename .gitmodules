@@ -1,0 +1,3 @@
+[submodule "Software/libs/LCD"]
+	path = Software/libs/LCD
+	url = git@github.com:FarK/LCD-5110-PCD8544_RTOS.git
